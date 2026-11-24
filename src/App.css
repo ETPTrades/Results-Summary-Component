@@ -1,0 +1,71 @@
+:root {
+    --c-white: hsl(0, 100%, 100%);
+    --black: hsl(0, 0, 0);
+    --navy-dark: hsl(224, 30%, 27);
+    --navy-mid: hsl(241, 100%, 89%);
+    --navy-light: hsl(221, 100%, 96%);
+    --blue-dark: hsl(234, 85%, 45%);
+    --blue-light: hsl(234, 71%, 97%);
+    --yellow-dark: hsl(39, 100%, 56%);
+    --yellow-light: hsl(38, 100%, 98%);
+    --red-dark: hsl(0, 100%, 67%);
+    --red-light: hsl(0, 100%, 98%);
+    --green-dark: hsl(166, 100%, 37%);
+    --green-light: hsl(162, 63%, 97%);
+    --gradient-fade: linear-gradient(hsl(256, 71%, 46%), hsl(241, 72%, 46%));
+    --gradient: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+/*CSS RESET*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Hanken Grotesk", Arial, Helvetica, sans-serif;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
