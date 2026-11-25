@@ -1,7 +1,8 @@
 :root {
-    --c-white: hsl(0, 100%, 100%);
+    /* COLORS */
+    --white: hsl(0, 100%, 100%);
     --black: hsl(0, 0, 0);
-    --navy-dark: hsl(224, 30%, 27);
+    --navy-dark: hsl(224, 30%, 27%);
     --navy-mid: hsl(241, 100%, 89%);
     --navy-light: hsl(221, 100%, 96%);
     --blue-dark: hsl(234, 85%, 45%);
@@ -74,7 +75,6 @@ h6 {
 
 .card-container {
     display: grid;
-    border: 3px solid green;
 }
 
 .results__container {
@@ -100,8 +100,39 @@ h6 {
 .summary__container {
     display: flex;
     flex-direction: column;
+    padding-inline: 24px;
+}
+
+button {
+    border: none;
+    border-radius: 128px;
+    padding-block: 20px;
+    background-color: var(--navy-dark);
+    color: var(--white);
 }
 
 .cognition__container {
     display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 12px;
+    margin-block-end: 16px;
+
+}
+
+.summary__container>.cognition__container:last-of-type {
+    margin-block-end: 24px;
+}
+
+.cognition__category-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.cognition__score-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

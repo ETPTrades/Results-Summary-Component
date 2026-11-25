@@ -1,7 +1,7 @@
-export default function Cognition({ image, name, score }) {
+export default function Cognition({ image, name, score, colors }) {
   return (
-    <div className="cognition__container">
-      <div className="cogition__category-container">
+    <div className="cognition__container" style={colors}>
+      <div className="cognition__category-container">
         <img src={image} alt="" />
         <span>{name}</span>
       </div>
