@@ -69,3 +69,39 @@ h5,
 h6 {
     text-wrap: balance;
 }
+
+/* PROJECT STYLES */
+
+.card-container {
+    display: grid;
+    border: 3px solid green;
+}
+
+.results__container {
+    background-image: var(--gradient-fade);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.results__image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: var(--gradient);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.summary__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.cognition__container {
+    display: flex;
+}
